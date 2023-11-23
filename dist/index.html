@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oasis Calculator</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<!-- 
+    changed pakage json ->   
+    "scripts": {
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+    } 
+-->
+
+<!-- npm run tailwind -->
+
+<body class="bg-gradient-to-r from-[#153677] to-[#4e085f] font-Ubuntu">
+    <h2 class="p-3 py-9 flex justify-center items-center text-white text-lg font-bold">Welcome to Calculator App</h2>
+    <div class="flex justify-center items-center flex-col ">
+        <div class="bg-white w-fit rounded-xl  md:p-6">
+            <div class="m-auto">
+                <input type="text" class="mx-4 my-5 py-3 px-5 rounded-md bg-[#c7cad2] text-black font-bold">
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">C</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">%</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">(</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">)</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">7</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">8</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">9</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">*</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">4</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">5</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">6</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">/</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">1</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">2</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">3</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">+</button>
+                </div>
+                <div class="row mx-3 mb-3">
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">0</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 px-6 text-xl rounded-md hover:bg-[#bec6d8]">.</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">-</button>
+                    <button class="btn bg-[#98a5b7] m-1 p-5 text-xl rounded-md hover:bg-[#bec6d8]">=</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
